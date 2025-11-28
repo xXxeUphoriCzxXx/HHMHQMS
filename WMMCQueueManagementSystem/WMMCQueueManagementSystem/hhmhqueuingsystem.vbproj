@@ -38,7 +38,7 @@
     <MinimumRequiredVersion>3.0.0.1</MinimumRequiredVersion>
     <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>25</ApplicationRevision>
+    <ApplicationRevision>35</ApplicationRevision>
     <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -280,6 +280,12 @@
       <DependentUpon>frmCounterQueuingBoard_ClinicPCC.vb</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmCounterQueuingBoard_ClinicPCC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCounterQueuingBoard_LabRadPharmacy.Designer.vb">
+      <DependentUpon>frmCounterQueuingBoard_LabRadPharmacy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCounterQueuingBoard_LabRadPharmacy.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\frmDatePicker2.Designer.vb">
@@ -1001,6 +1007,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmCounterQueuingBoard_ClinicPCC.resx">
       <DependentUpon>frmCounterQueuingBoard_ClinicPCC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCounterQueuingBoard_LabRadPharmacy.resx">
+      <DependentUpon>frmCounterQueuingBoard_LabRadPharmacy.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmCounterSelection.resx">
       <DependentUpon>frmCounterSelection.vb</DependentUpon>

@@ -13,6 +13,7 @@ Public Class frmServiceCounter
     Private Mute As Boolean = False
     Private isVoice As Boolean = False
     Private chartMode As Boolean = True
+    Private WithEvents frmW As New Form
     Private WithEvents frmX As New Form
     Private WithEvents frmY As New Form
     Private WithEvents frmZ As New Form
@@ -3238,6 +3239,27 @@ showBoard:
     Private Sub PrevPage_BTN_Click(sender As Object, e As EventArgs) Handles PrevPage_BTN.Click
         Profile_Info2Panel.Show()
         IDInfo_Panel.Hide()
+    End Sub
+
+    Private Sub QueuingBoardLABRADAndPharmacyToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles QueuingBoardLABRADAndPharmacyToolStripMenuItem.Click
+        If Mute Then
+            GoTo showBoard
+        Else
+            MessageBox.Show("Standalone queuing board has its own beep mechanism And may confict the beep mechanism Of this queuing. It Is `recommended To mute this queuing` so it won't conflict with the audio in standalone queuing board", "Standalone Queuing Board", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            If MessageBox.Show("Do you want to mute?", "Mute", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+                Dim voiceModel As VoiceModel = VoiceSetting()
+                voiceModel.Mute = True
+                Mute = voiceModel.Mute
+                MuteToolStripMenuItem.Checked = voiceModel.Mute
+                VoiceSetting() = voiceModel
+            End If
+        End If
+showBoard:
+        If Not Application.OpenForms().OfType(Of frmCounterQueuingBoard_LabRadPharmacy).Any Then
+            frmW.Close()
+            frmW = New frmCounterQueuingBoard_LabRadPharmacy
+            frmW.Show()
+        End If
     End Sub
 
     Private Sub btnAssignPhysician_Click(sender As Object, e As EventArgs) Handles btnAssignPhysician.Click

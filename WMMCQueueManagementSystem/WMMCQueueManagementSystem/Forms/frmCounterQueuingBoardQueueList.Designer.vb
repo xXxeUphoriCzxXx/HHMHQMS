@@ -76,11 +76,11 @@ Partial Class frmCounterQueuingBoardQueueList
         Me.lblCounterName.AutoSize = True
         Me.lblCounterName.BackColor = System.Drawing.Color.LimeGreen
         Me.lblCounterName.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lblCounterName.Font = New System.Drawing.Font("Century Gothic", 50.25!, System.Drawing.FontStyle.Bold)
+        Me.lblCounterName.Font = New System.Drawing.Font("Microsoft Sans Serif", 50.25!, System.Drawing.FontStyle.Bold)
         Me.lblCounterName.ForeColor = System.Drawing.Color.White
         Me.lblCounterName.Location = New System.Drawing.Point(0, 0)
         Me.lblCounterName.Name = "lblCounterName"
-        Me.lblCounterName.Size = New System.Drawing.Size(1507, 80)
+        Me.lblCounterName.Size = New System.Drawing.Size(1679, 76)
         Me.lblCounterName.TabIndex = 1
         Me.lblCounterName.Text = "LIST OF PATIENT IN QUEUE FOR: LABORATORY   "
         '
@@ -118,7 +118,7 @@ Partial Class frmCounterQueuingBoardQueueList
         'servingLbl6
         '
         Me.servingLbl6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.servingLbl6.Font = New System.Drawing.Font("Century Gothic", 45.0!, System.Drawing.FontStyle.Bold)
+        Me.servingLbl6.Font = New System.Drawing.Font("Microsoft Sans Serif", 45.0!, System.Drawing.FontStyle.Bold)
         Me.servingLbl6.ForeColor = System.Drawing.Color.DimGray
         Me.servingLbl6.Location = New System.Drawing.Point(0, 0)
         Me.servingLbl6.Name = "servingLbl6"
@@ -141,7 +141,7 @@ Partial Class frmCounterQueuingBoardQueueList
         'servingLbl5
         '
         Me.servingLbl5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.servingLbl5.Font = New System.Drawing.Font("Century Gothic", 45.0!, System.Drawing.FontStyle.Bold)
+        Me.servingLbl5.Font = New System.Drawing.Font("Microsoft Sans Serif", 45.0!, System.Drawing.FontStyle.Bold)
         Me.servingLbl5.ForeColor = System.Drawing.Color.DimGray
         Me.servingLbl5.Location = New System.Drawing.Point(0, 0)
         Me.servingLbl5.Name = "servingLbl5"
@@ -164,7 +164,7 @@ Partial Class frmCounterQueuingBoardQueueList
         'servingLbl4
         '
         Me.servingLbl4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.servingLbl4.Font = New System.Drawing.Font("Century Gothic", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.servingLbl4.Font = New System.Drawing.Font("Microsoft Sans Serif", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.servingLbl4.ForeColor = System.Drawing.Color.DimGray
         Me.servingLbl4.Location = New System.Drawing.Point(0, 0)
         Me.servingLbl4.Name = "servingLbl4"
@@ -187,7 +187,7 @@ Partial Class frmCounterQueuingBoardQueueList
         'servingLbl3
         '
         Me.servingLbl3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.servingLbl3.Font = New System.Drawing.Font("Century Gothic", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.servingLbl3.Font = New System.Drawing.Font("Microsoft Sans Serif", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.servingLbl3.ForeColor = System.Drawing.Color.DimGray
         Me.servingLbl3.Location = New System.Drawing.Point(0, 0)
         Me.servingLbl3.Name = "servingLbl3"
@@ -210,7 +210,7 @@ Partial Class frmCounterQueuingBoardQueueList
         'servingLbl2
         '
         Me.servingLbl2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.servingLbl2.Font = New System.Drawing.Font("Century Gothic", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.servingLbl2.Font = New System.Drawing.Font("Microsoft Sans Serif", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.servingLbl2.ForeColor = System.Drawing.Color.DimGray
         Me.servingLbl2.Location = New System.Drawing.Point(0, 0)
         Me.servingLbl2.Name = "servingLbl2"
@@ -233,7 +233,7 @@ Partial Class frmCounterQueuingBoardQueueList
         'servingLbl1
         '
         Me.servingLbl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.servingLbl1.Font = New System.Drawing.Font("Century Gothic", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.servingLbl1.Font = New System.Drawing.Font("Microsoft Sans Serif", 45.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.servingLbl1.ForeColor = System.Drawing.Color.DimGray
         Me.servingLbl1.Location = New System.Drawing.Point(0, 0)
         Me.servingLbl1.Name = "servingLbl1"
@@ -257,7 +257,7 @@ Partial Class frmCounterQueuingBoardQueueList
         Me.Label2.BackColor = System.Drawing.Color.LimeGreen
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label2.Font = New System.Drawing.Font("Arial Narrow", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 35.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(0, 0)
         Me.Label2.Name = "Label2"
@@ -290,7 +290,7 @@ Partial Class frmCounterQueuingBoardQueueList
         '
         Me.Label1.BackColor = System.Drawing.Color.LimeGreen
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(705, 150)

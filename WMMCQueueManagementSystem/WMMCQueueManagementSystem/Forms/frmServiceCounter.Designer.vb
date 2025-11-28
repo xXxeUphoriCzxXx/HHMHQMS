@@ -373,6 +373,7 @@ Partial Class frmServiceCounter
         Me.Label38 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.QueuingBoardLABRADAndPharmacyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.pnlNoInfo.SuspendLayout()
@@ -576,7 +577,7 @@ Partial Class frmServiceCounter
         '
         'SelfAlarmQueuingBoardToolStripMenuItem
         '
-        Me.SelfAlarmQueuingBoardToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.QueuingBoardADSToolStripMenuItem1, Me.QueuingBoardSELECTEDDEPARTMENTSToolStripMenuItem, Me.QueuingBoardALLDEPARTMENTToolStripMenuItem1})
+        Me.SelfAlarmQueuingBoardToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.QueuingBoardADSToolStripMenuItem1, Me.QueuingBoardSELECTEDDEPARTMENTSToolStripMenuItem, Me.QueuingBoardALLDEPARTMENTToolStripMenuItem1, Me.QueuingBoardLABRADAndPharmacyToolStripMenuItem})
         Me.SelfAlarmQueuingBoardToolStripMenuItem.Name = "SelfAlarmQueuingBoardToolStripMenuItem"
         Me.SelfAlarmQueuingBoardToolStripMenuItem.Size = New System.Drawing.Size(210, 22)
         Me.SelfAlarmQueuingBoardToolStripMenuItem.Text = "Self Alarm Queuing Board"
@@ -584,19 +585,19 @@ Partial Class frmServiceCounter
         'QueuingBoardADSToolStripMenuItem1
         '
         Me.QueuingBoardADSToolStripMenuItem1.Name = "QueuingBoardADSToolStripMenuItem1"
-        Me.QueuingBoardADSToolStripMenuItem1.Size = New System.Drawing.Size(277, 22)
+        Me.QueuingBoardADSToolStripMenuItem1.Size = New System.Drawing.Size(293, 22)
         Me.QueuingBoardADSToolStripMenuItem1.Text = "Queuing Board (ADS)"
         '
         'QueuingBoardSELECTEDDEPARTMENTSToolStripMenuItem
         '
         Me.QueuingBoardSELECTEDDEPARTMENTSToolStripMenuItem.Name = "QueuingBoardSELECTEDDEPARTMENTSToolStripMenuItem"
-        Me.QueuingBoardSELECTEDDEPARTMENTSToolStripMenuItem.Size = New System.Drawing.Size(277, 22)
+        Me.QueuingBoardSELECTEDDEPARTMENTSToolStripMenuItem.Size = New System.Drawing.Size(293, 22)
         Me.QueuingBoardSELECTEDDEPARTMENTSToolStripMenuItem.Text = "Queuing Board (SELECTED COUNTERS)"
         '
         'QueuingBoardALLDEPARTMENTToolStripMenuItem1
         '
         Me.QueuingBoardALLDEPARTMENTToolStripMenuItem1.Name = "QueuingBoardALLDEPARTMENTToolStripMenuItem1"
-        Me.QueuingBoardALLDEPARTMENTToolStripMenuItem1.Size = New System.Drawing.Size(277, 22)
+        Me.QueuingBoardALLDEPARTMENTToolStripMenuItem1.Size = New System.Drawing.Size(293, 22)
         Me.QueuingBoardALLDEPARTMENTToolStripMenuItem1.Text = "Queuing Board (ALL COUNTERS)"
         '
         'TestQueueBoardToolStripMenuItem
@@ -940,7 +941,7 @@ Partial Class frmServiceCounter
         Me.lblRefNo.BackColor = System.Drawing.Color.White
         Me.lblRefNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblRefNo.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lblRefNo.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRefNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRefNo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(61, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.lblRefNo.Location = New System.Drawing.Point(127, 0)
         Me.lblRefNo.Name = "lblRefNo"
@@ -1210,7 +1211,7 @@ Partial Class frmServiceCounter
         Me.dgvVitalSummary.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvVitalSummary.RowHeadersVisible = False
         DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
         Me.dgvVitalSummary.RowsDefaultCellStyle = DataGridViewCellStyle3
         Me.dgvVitalSummary.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
@@ -1269,7 +1270,7 @@ Partial Class frmServiceCounter
         Me.chartRates.BorderSkin.BackColor = System.Drawing.Color.White
         ChartArea1.Name = "ChartArea1"
         Me.chartRates.ChartAreas.Add(ChartArea1)
-        Legend1.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold)
+        Legend1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Legend1.IsTextAutoFit = False
         Legend1.Name = "Legend1"
         Me.chartRates.Legends.Add(Legend1)
@@ -1306,7 +1307,7 @@ Partial Class frmServiceCounter
         Me.chartbp.BorderSkin.BackColor = System.Drawing.Color.White
         ChartArea2.Name = "ChartArea1"
         Me.chartbp.ChartAreas.Add(ChartArea2)
-        Legend2.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold)
+        Legend2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Legend2.IsTextAutoFit = False
         Legend2.Name = "Legend1"
         Me.chartbp.Legends.Add(Legend2)
@@ -1337,7 +1338,7 @@ Partial Class frmServiceCounter
         Me.chartTemp.BorderSkin.BackColor = System.Drawing.Color.White
         ChartArea3.Name = "ChartArea1"
         Me.chartTemp.ChartAreas.Add(ChartArea3)
-        Legend3.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold)
+        Legend3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Legend3.IsTextAutoFit = False
         Legend3.Name = "Legend1"
         Me.chartTemp.Legends.Add(Legend3)
@@ -2052,7 +2053,7 @@ Partial Class frmServiceCounter
         Me.dgvConsultation_ICD10.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvConsultation_ICD10.RowHeadersVisible = False
         DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.dgvConsultation_ICD10.RowsDefaultCellStyle = DataGridViewCellStyle6
         Me.dgvConsultation_ICD10.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvConsultation_ICD10.Size = New System.Drawing.Size(724, 216)
@@ -2125,7 +2126,7 @@ Partial Class frmServiceCounter
         Me.dgvConsultation_DoctorsOrderPlans.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvConsultation_DoctorsOrderPlans.RowHeadersVisible = False
         DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.dgvConsultation_DoctorsOrderPlans.RowsDefaultCellStyle = DataGridViewCellStyle9
         Me.dgvConsultation_DoctorsOrderPlans.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvConsultation_DoctorsOrderPlans.Size = New System.Drawing.Size(724, 216)
@@ -2206,7 +2207,7 @@ Partial Class frmServiceCounter
         Me.dgvConsultation_BizboxRequisition.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvConsultation_BizboxRequisition.RowHeadersVisible = False
         DataGridViewCellStyle12.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.dgvConsultation_BizboxRequisition.RowsDefaultCellStyle = DataGridViewCellStyle12
         Me.dgvConsultation_BizboxRequisition.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvConsultation_BizboxRequisition.Size = New System.Drawing.Size(724, 216)
@@ -2349,7 +2350,7 @@ Partial Class frmServiceCounter
         Me.dgvConsultation_SickLeave.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvConsultation_SickLeave.RowHeadersVisible = False
         DataGridViewCellStyle15.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.dgvConsultation_SickLeave.RowsDefaultCellStyle = DataGridViewCellStyle15
         Me.dgvConsultation_SickLeave.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvConsultation_SickLeave.Size = New System.Drawing.Size(724, 216)
@@ -2432,7 +2433,7 @@ Partial Class frmServiceCounter
         Me.dgvConsulationList.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvConsulationList.RowHeadersVisible = False
         DataGridViewCellStyle18.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
         Me.dgvConsulationList.RowsDefaultCellStyle = DataGridViewCellStyle18
         Me.dgvConsulationList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
@@ -2576,7 +2577,7 @@ Partial Class frmServiceCounter
         Me.dgvDiagnosticTrasactionID.BackColor = System.Drawing.Color.White
         Me.dgvDiagnosticTrasactionID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.dgvDiagnosticTrasactionID.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.dgvDiagnosticTrasactionID.Font = New System.Drawing.Font("Arial Narrow", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dgvDiagnosticTrasactionID.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dgvDiagnosticTrasactionID.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(61, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.dgvDiagnosticTrasactionID.Location = New System.Drawing.Point(110, 0)
         Me.dgvDiagnosticTrasactionID.Name = "dgvDiagnosticTrasactionID"
@@ -2632,7 +2633,7 @@ Partial Class frmServiceCounter
         Me.dgvDiagnosticRequestItems.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvDiagnosticRequestItems.RowHeadersVisible = False
         DataGridViewCellStyle21.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle21.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.dgvDiagnosticRequestItems.RowsDefaultCellStyle = DataGridViewCellStyle21
         Me.dgvDiagnosticRequestItems.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvDiagnosticRequestItems.Size = New System.Drawing.Size(740, 214)
@@ -2734,7 +2735,7 @@ Partial Class frmServiceCounter
         Me.dgvDiagnosticRequestList.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvDiagnosticRequestList.RowHeadersVisible = False
         DataGridViewCellStyle24.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle24.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         DataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black
         Me.dgvDiagnosticRequestList.RowsDefaultCellStyle = DataGridViewCellStyle24
         Me.dgvDiagnosticRequestList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
@@ -2828,10 +2829,10 @@ Partial Class frmServiceCounter
         Me.dgvDiagnosticResults.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvDiagnosticResults.RowHeadersVisible = False
         DataGridViewCellStyle27.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.dgvDiagnosticResults.RowsDefaultCellStyle = DataGridViewCellStyle27
         Me.dgvDiagnosticResults.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgvDiagnosticResults.Size = New System.Drawing.Size(961, 557)
+        Me.dgvDiagnosticResults.Size = New System.Drawing.Size(961, 561)
         Me.dgvDiagnosticResults.TabIndex = 46
         '
         'diagnosticID
@@ -3655,7 +3656,7 @@ Partial Class frmServiceCounter
         Me.dgvHealthCheck_History.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvHealthCheck_History.RowHeadersVisible = False
         DataGridViewCellStyle30.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle30.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.dgvHealthCheck_History.RowsDefaultCellStyle = DataGridViewCellStyle30
         Me.dgvHealthCheck_History.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvHealthCheck_History.Size = New System.Drawing.Size(326, 421)
@@ -3989,7 +3990,7 @@ Partial Class frmServiceCounter
         Me.dgvNotes_LatestTransactionItems.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken
         Me.dgvNotes_LatestTransactionItems.RowHeadersVisible = False
         DataGridViewCellStyle33.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle33.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.dgvNotes_LatestTransactionItems.RowsDefaultCellStyle = DataGridViewCellStyle33
         Me.dgvNotes_LatestTransactionItems.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvNotes_LatestTransactionItems.Size = New System.Drawing.Size(682, 250)
@@ -4153,7 +4154,7 @@ Partial Class frmServiceCounter
         Me.dgvAssignedMabDoctor_QueuedPatient.RowHeadersDefaultCellStyle = DataGridViewCellStyle36
         Me.dgvAssignedMabDoctor_QueuedPatient.RowHeadersVisible = False
         DataGridViewCellStyle37.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle37.Font = New System.Drawing.Font("Arial Narrow", 9.75!)
+        DataGridViewCellStyle37.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!)
         Me.dgvAssignedMabDoctor_QueuedPatient.RowsDefaultCellStyle = DataGridViewCellStyle37
         Me.dgvAssignedMabDoctor_QueuedPatient.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dgvAssignedMabDoctor_QueuedPatient.Size = New System.Drawing.Size(639, 422)
@@ -4270,6 +4271,12 @@ Partial Class frmServiceCounter
         Me.Button3.TabIndex = 59
         Me.Button3.Text = "CLICK TO REMOVE ASSIGNED CONSULTANT"
         Me.Button3.UseVisualStyleBackColor = False
+        '
+        'QueuingBoardLABRADAndPharmacyToolStripMenuItem
+        '
+        Me.QueuingBoardLABRADAndPharmacyToolStripMenuItem.Name = "QueuingBoardLABRADAndPharmacyToolStripMenuItem"
+        Me.QueuingBoardLABRADAndPharmacyToolStripMenuItem.Size = New System.Drawing.Size(293, 22)
+        Me.QueuingBoardLABRADAndPharmacyToolStripMenuItem.Text = "Queuing Board (LAB, RAD and Pharmacy)"
         '
         'frmServiceCounter
         '
@@ -4677,4 +4684,5 @@ Partial Class frmServiceCounter
     Friend WithEvents Label14 As Label
     Friend WithEvents PrevPage_BTN As Button
     Friend WithEvents NextPage_BTN As Button
+    Friend WithEvents QueuingBoardLABRADAndPharmacyToolStripMenuItem As ToolStripMenuItem
 End Class

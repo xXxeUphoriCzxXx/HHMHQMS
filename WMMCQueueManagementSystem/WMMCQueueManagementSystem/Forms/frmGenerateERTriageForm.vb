@@ -1,5 +1,4 @@
-﻿Imports System.ComponentModel
-Imports System.IO
+﻿Imports System.IO
 Imports iTextSharp.text.pdf
 
 Public Class frmGenerateERTriageForm
@@ -436,14 +435,17 @@ Public Class frmGenerateERTriageForm
 
     End Sub
 
+    <Obsolete>
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
             Dim pd As New PrintDialog
-            Dim pdoc As Printing.PrintDocument = pdfViewer.PrintDocument()
-            pd.Document = pdoc
-            If pd.ShowDialog = DialogResult.OK Then
-                pdoc.Print()
-            End If
+            Using pdoc As Printing.PrintDocument = pdfViewer.PrintDocument()
+                pd.Document = pdoc
+                If pd.ShowDialog = DialogResult.OK Then
+                    pdoc.Print()
+                End If
+            End Using
+
         Catch ex As Exception
             MessageBox.Show("Something went wrong during printing. Please try again later", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
